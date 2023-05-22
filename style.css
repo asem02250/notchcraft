@@ -33,6 +33,7 @@ back {
   color: white;
   font-size: 20px;
   cursor: pointer;
+  text-align: center;
   /* Add a transition property to specify the duration and easing of the animation */
   transition: transform 0.3s ease-in-out;
 }
