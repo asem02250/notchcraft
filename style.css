@@ -26,17 +26,7 @@ button {
   /* Add a transition property to specify the duration and easing of the animation */
   transition: transform 0.3s ease-in-out;
 }
-back {
-  padding: 10px 20px;
-  border: none;
-  background-color: orange;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  text-align: center;
-  /* Add a transition property to specify the duration and easing of the animation */
-  transition: transform 0.3s ease-in-out;
-}
+
 
 /* Use the :hover pseudo-class to change the style of the button when you hover over it */
 button:hover {
