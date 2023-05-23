@@ -25,14 +25,14 @@ button {
   text-align: center;
   cursor: pointer;
   /* Add a transition property to specify the duration and easing of the animation */
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 
 /* Use the :hover pseudo-class to change the style of the button when you hover over it */
 button:hover {
   /* Use the transform property to scale up the button by 10% */
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 /* To make a smooth ranks page, you can use CSS grid or flexbox to create a responsive layout for your elements */
