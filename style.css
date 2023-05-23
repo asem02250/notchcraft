@@ -1,4 +1,4 @@
-/* Add your CSS styles here */
+﻿/* Add your CSS styles here */
 /* For example, you can change the background color of the body */
 body {
   background-color: lightblue;
@@ -19,7 +19,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 button {
   padding: 10px 20px;
   border: none;
-  background-color: green;
+  background-color: orange;
   color: white;
   font-size: 20px;
   text-align: center;
