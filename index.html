@@ -17,6 +17,53 @@
   <div class="container">
     <h1>Welcome to Minecraft</h1>
     <h2>NotchCraft.online</h2>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .search-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+      }
+      
+      .search-input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 18px;
+        outline: none;
+      }
+      
+      .search-button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background-color: #00a0ff;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      
+      .search-button:hover {
+        transform: scale(1.1);
+      }
+      
+      .search-button:focus {
+        outline: none;
+      }
+      </style>
+      
+      <div class="search-container">
+      <input type="text" class="search-input" placeholder="Search...">
+      <button class="search-button">🔍</button>
+      </div>
+      
     <button type="button" onclick="location.href='ranks.html'">Ranks</button>
 	    <p>&nbsp;</p>
 	<button type="button" onclick="location.href='datapacks.html'">Datapacks</button>
@@ -50,6 +97,8 @@
   <p>&nbsp;</p>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
+
+  
   
 </body>
 </html>
